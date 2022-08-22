@@ -8,7 +8,7 @@ class serviceSeller(unittest.TestCase):
 
     def test_datos(self):
         """
-        Test that invalid plate raises ValueError
+        Testea datos del ciudadano
         """
         ocupacion='Docente'
         recidencia='Cuenca'
@@ -21,7 +21,7 @@ class serviceSeller(unittest.TestCase):
     
     def test_datos2(self):
         """
-        Test that invalid date raises ValueError
+        Testea datos del ciudadano
         """
         ocupacion='Ingeniero'
         recidencia='Bogota'
@@ -34,7 +34,7 @@ class serviceSeller(unittest.TestCase):
     
     def test_datos3(self):
         """
-        Test that invalid time raises ValueError
+       Testea datos del ciudadano
         """
         ocupacion='Doctor'
         recidencia='Barcelona'
@@ -47,7 +47,7 @@ class serviceSeller(unittest.TestCase):
     
     def test_datos4(self):
         """
-        Test that missing API key raises requests.HTTPError
+        Testea datos del ciudadano
         """
         ocupacion='Ganadero'
         recidencia='Madrid'
@@ -60,7 +60,7 @@ class serviceSeller(unittest.TestCase):
 
     def test_datos5(self):
         """
-        Test that moved new holidays are restricted
+        Testea datos del ciudadano
         """
         ocupacion='Ganadero'
         recidencia='Cali'
@@ -74,7 +74,7 @@ class serviceSeller(unittest.TestCase):
 
     def test_datos6(self):
         """
-        Test that moved would-have-been holidays are not restricted
+        Testea datos del ciudadano
         """
         ocupacion='Arquitecto'
         recidencia='Londres'
@@ -87,7 +87,7 @@ class serviceSeller(unittest.TestCase):
 
     def test_datos7(self):
         """
-        Test that moved would-have-been continuous holidays are not restricted
+        Testea datos del ciudadano
         """
         ocupacion='Arquitecto'
         recidencia='Paris'
